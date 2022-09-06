@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <title>My portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Simone Ghilotti</h1>
+        <nav>
+            <ul>
+                <li><a href="#">About me</a></li>
+                <li><a href="#face">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="./contact.html" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>About me</h2>
+            <img id="face" src="./face.jpg" alt="simone's face">
+            <p class="about">Ciao! my name is Simone, a self-taught front-end web developer based in Maidstone, Kent. 
+                I am 26 years old and currently looking for my first job in the tech industry.</p>
+            <p class="about">I have got one year of experience in executing front-end mobile and web developement using Python,
+                HTML5, JavaScript and CSS3.</p>
+            <p class="about">I am committed to creating high presentation UI with exceptional handling to enhance user experience.</p>
+            <p class="about">In my spare time I enjoy travelling and going to the gym.</p>
+        </article>
+        <section class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li id="snake" class="project">Snake Game with Python</li>
+                    <figure id="figure1"><img id="game" src="./snake.png" alt="Snake Game"><figcaption>Snake game developed using pygame.</figcaption></figure>
+                <li id="space" class="project">Space battleship</li>
+                    <figure id="figure2"><img id="ship" src="./spaceship.png" alt="Spaceship"><figcaption id="figship">Spaceship game developed using pygame.</figcaption></figure>
+                <li id="fortune" class="project">JavaScript Fortune teller</li>
+                    <figure id="figure3"><img id="teller" src="./fortune.png" alt="JavaScript"><figcaption>Fortune teller generator using JavaScript</figcaption></figure>
+            </ul>
+        </section>
+        <h2 id="skills">Skills</h2>
+        <section class="skills">
+            <img src="./python.png" alt="Python">
+            <img src="./html.png" alt="HTML">
+            <img src="./css.png" alt="CSS">
+            <img src="./javascript_icon.png" alt="JavaScript">
+        </section>
+        <hr>
+        <footer>
+            <p class="bottom">Simone's website</p>
+        </footer>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>

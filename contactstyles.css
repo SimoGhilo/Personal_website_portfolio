@@ -1,0 +1,27 @@
+html{
+    font-size: 16px;
+}
+
+
+body main section{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+body main section .contacts{
+    width: 12rem;
+}
+
+body main section .link{
+    margin-left: 2rem;
+}
+
+
+
+
+
+footer .bottom{
+    text-align: center;
+}

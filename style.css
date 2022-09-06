@@ -1,0 +1,214 @@
+html {
+    font-size: 16px;
+    font-family: 'Museo Moderno',cursive;
+    background-color: hsla(0,70%,95%);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover{
+    color: brown;
+}
+
+
+h1{
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+header nav ul{
+    text-align: center;
+    display: flex;
+    margin-top: -3.8rem;
+    
+    
+    
+}
+
+header nav ul li{
+    margin: 0.5rem 3rem 0.5rem 3rem;
+    list-style: none;
+    
+}
+
+h2{
+    margin-left: 2rem;
+    margin-top:1rem;
+}
+
+main article{
+    display: block;
+}
+
+main article .about{
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+}
+
+#face{
+    float: inline-end;
+    border-radius: 1rem;
+    margin-right: 2rem;
+    margin-right: 2.7rem;
+}
+
+
+main .projects{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+main .projects ul {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+#snake:hover{
+    color: brown;
+}
+
+#space:hover{
+    color: brown;
+}
+
+#fortune:hover{
+    color: brown;
+}
+
+#figure1{
+    display: none;
+}
+
+#figure2{
+    display: none;
+}
+
+#figure3{
+    display: none;
+}
+
+#ship{
+    width: 10rem;
+    
+}
+
+#game{
+    width: 30rem;
+}
+
+#teller{
+    width: 30rem;
+}
+
+main .projects .project {
+    margin-top: 1rem;
+}
+
+#skills{
+    display: block;
+    margin-bottom: 2rem;
+}
+main .skills{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+main .skills img{
+    width: 10rem;
+    
+}
+
+hr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+main footer .bottom{
+    text-align: center;
+    margin: 2rem;
+}
+
+
+/* Media Queries - phone */
+
+@media screen and (max-width: 480px) {
+
+    h1 {
+        display: none;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    p .about {
+        margin-right: 2rem;
+    }
+
+    #game{
+        width: 14rem;
+    }
+
+    #teller{
+        width: 18rem;
+        margin-left: -1rem;
+        height: 20rem;
+    }
+
+}
+
+/* Tablets */
+
+@media screen and (min-width:468px) and (max-width:1024px) {
+
+    h1{
+        font-size: 1rem;
+    }
+
+    header nav ul {
+        font-size: 1rem;
+        margin-top: 3rem;
+        margin-right: 13rem;
+    }
+
+    header nav ul li {
+        margin: 0rem 0.5rem 0rem 0.5rem;
+    }
+
+    #game{
+        width: 13rem;
+    }
+
+    #teller{
+        width: 17rem;
+        height: 18rem;
+    }
+
+}
+
+
+
+
+
+
